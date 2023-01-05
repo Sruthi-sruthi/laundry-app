@@ -1,4 +1,4 @@
-.signup-section input{
+.login-section input{
     width: 250px;
     height: 30px;
     border-radius: 5px;
@@ -10,8 +10,8 @@ body{
     background-color: rgb(109,154,196);
 
 }
-.signup-section{
-    height: 450px;
+.login-section{
+    height: 400px;
     width: 350px;
     border: 1px solid black;
     border-radius: 10px;
@@ -21,20 +21,21 @@ body{
     background-color: white;
     margin-top: 100px;
 }
-.signup-btn{
+.login-btn{
     width: 250px;
     height: 35px;
     border-radius:5px;
     text-transform: uppercase;
     background-color: rgb(238,86,132);
     color: white;
-    margin-top: 15px;
+    margin-top: 30px;
     font-weight: 500;
     border: none;
 }
-.signup-section a{
+.login-section a{
     font-weight: 600;
 }
-.signup-section h4, a{
+.login-section h4, a{
     color: rgb(83, 82, 82);
+    margin-top: 50px
 }
