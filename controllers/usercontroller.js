@@ -5,6 +5,10 @@ const getSignupPage= function(req,res){
   res.render('signup',{ title: 'Express' });
 }
 
+const getLoginpPage= function(req,res){
+  res.render('login');
+}
 
-module.exports={getHomePage,getSignupPage}
+
+module.exports={getHomePage,getSignupPage,getLoginpPage}
 
